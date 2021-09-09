@@ -1,0 +1,53 @@
+/* Formateamos el Cuerpo de la Pagina Habitaciones*/
+.Habitaciones{
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.FotoHab {
+    width: 100%;
+}
+
+.Habtext {
+    background-color: whitesmoke;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $ColorSecundario;
+    transform: translateY(-3rem);
+
+    a {
+        color: $ColorPrimario;  
+    }
+
+    p {
+       font-size: 2vw;
+       @media (min-width:768px){
+        font-size:1.2vw;
+    }
+    }
+}
+
+.TipoDeHab{
+    display: flex;
+    flex-direction: column;
+    font-family: $TipodeLetra;
+    margin: 1rem;
+    transition: all 0.5s ease-out;
+
+    &:hover{
+        transform: scale(1.07,1.07);
+        
+        .Habtext {
+            background-color: white;
+            transform: translateY(-5rem);
+            transition: all 0.5s ease-out;
+    }
+}
+}

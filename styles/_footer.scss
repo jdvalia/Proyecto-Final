@@ -1,0 +1,16 @@
+/* Formateamos el Contenido del "Sitio en Construccion" */
+.SitioEnConstr {
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 4rem;
+    line-height: 5rem;
+    padding: 2rem;
+}
+
+/* Formateamos el Copyright*/
+.Copyright {
+color: $ColorPrimario;
+font-size: 2rem;
+}

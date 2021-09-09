@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+$ColorPrimario: rgb(172, 115, 163);
+$ColorSecundario: rgba(0, 0, 0, 0.55);
+$TipodeLetra: 'Playfair Display',serif;
+
+.PosPrincipal{
+    margin-top: 8rem;
+}
+
+/* Formateamos los títulos de todas las paginas*/
+.TituloPagina {
+    color: $ColorPrimario;
+    font-size:5rem;
+}
+
+/* Formateamos la Foto de la Pagina Principal*/
+.FotoPrincipal {
+    width:100%;
+    height: 50rem;
+    background-image: url(../media/HotelTransylvania.png) ;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    text-rendering: optimizeLegibility;
+    font-family: $TipodeLetra;
+}
