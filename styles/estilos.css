@@ -22,8 +22,8 @@ html {
 .FotoPrincipal {
   width: 100%;
   height: 50rem;
-  background-image: url(../media/HotelTransylvania.png);
-  background-size: 50%;
+  background-image: url(../media/paginaprincipal.jpg);
+  background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -58,24 +58,20 @@ h1, h2, h3, h4, h5, h6, p, a {
 .Datos {
   padding: 2rem 1rem 0 1rem;
   color: #ac73a3;
+  font-size: 2rem;
 }
 
 .FormatoContacto {
   color: #ac73a3;
   font-family: "Playfair Display", serif;
+  font-size: 2rem;
 }
 
 .DatosFinal {
   padding-left: 1rem;
   color: rgba(0, 0, 0, 0.55);
   font-weight: normal;
-  font-size: 2vw;
-}
-
-@media (min-width: 768px) {
-  .DatosFinal {
-    font-size: 1.4vw;
-  }
+  font-size: 1.5rem;
 }
 
 .FormatoBoton {
@@ -109,7 +105,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .input, textarea {
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-variant: small-caps;
   font-family: cursive;
   text-transform: lowercase;
@@ -159,16 +155,6 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .Habtext a {
   color: #ac73a3;
-}
-
-.Habtext p {
-  font-size: 2vw;
-}
-
-@media (min-width: 768px) {
-  .Habtext p {
-    font-size: 1.2vw;
-  }
 }
 
 .TipoDeHab {
