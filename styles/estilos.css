@@ -21,7 +21,7 @@ html {
 /* Formateamos la Foto de la Pagina Principal*/
 .FotoPrincipal {
   width: 100%;
-  height: 50rem;
+  height: 30rem;
   background-image: url(../media/paginaprincipal.jpg);
   background-size: 90%;
   background-position: center;
