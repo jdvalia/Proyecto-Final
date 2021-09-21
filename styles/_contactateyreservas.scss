@@ -1,0 +1,52 @@
+/* Formateamos el Formulario de Contactate*/
+.Datos {
+    padding: 2rem 1rem 0 1rem;
+    color: $ColorPrimario;
+    font-size: 2rem;
+}
+
+.FormatoContacto {
+    color: $ColorPrimario;
+    font-family: $TipodeLetra;
+    font-size: 2rem;
+}
+
+.DatosFinal {
+    padding-left: 1rem;
+    color:$ColorSecundario;
+    font-weight: normal;
+    font-size: 1.5rem;
+    // @media (min-width:768px){
+    //     font-size:1.4vw;
+    // }
+}
+
+.FormatoBoton {
+background-color: $ColorPrimario;
+color: white;
+font-family: $TipodeLetra;
+letter-spacing: 0.4rem;
+}
+
+.Botones {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.RedesSociales {
+    width: 60%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.NuevoForm {
+    padding: 1rem 1rem 3rem 1rem;
+}
+.input, textarea {
+    font-size: 1.8rem;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    color: $ColorPrimario;
+}
+
+  
