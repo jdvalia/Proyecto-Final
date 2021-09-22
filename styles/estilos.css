@@ -15,19 +15,24 @@ html {
 /* Formateamos los títulos de todas las paginas*/
 .TituloPagina {
   color: #ac73a3;
-  font-size: 5rem;
+  font-size: 4.5rem;
+  text-align: center;
 }
 
+/* Formateamos la Foto de la Pagina Principal*/
+h1, h2, h3, h4, h5, h6, p, a {
+  text-rendering: optimizeLegibility;
+  font-family: "Playfair Display", serif;
+}
+
+/* Formateamos el Texto de la Pagina Principal*/
 .Textomain {
-  color: whitesmoke;
+  color: #ac73a3;
 }
 
 .Textomain h1 {
-  font-size: 2rem;
-  position: absolute;
-  top: 35%;
+  font-size: 3.5rem;
   text-align: center;
-  width: 44%;
   display: block;
   margin: 0 auto;
   right: 0;
@@ -36,10 +41,8 @@ html {
 
 .Textomain h3 {
   font-size: 1.5rem;
-  position: absolute;
-  top: 40%;
   text-align: center;
-  width: 65%;
+  width: 75%;
   display: block;
   margin: 0 auto;
   right: 0;
@@ -50,34 +53,11 @@ html {
 /* Formateamos la Foto de la Pagina Principal*/
 .FotoPrincipal {
   width: 100%;
-  height: 25rem;
-  bottom: auto;
+  height: 20rem;
   background-image: url(../media/paginaprincipal.jpg);
   background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-h1, h2, h3, h4, h5, h6, p, a {
-  text-rendering: optimizeLegibility;
-  font-family: "Playfair Display", serif;
-}
-
-/* Formateamos el Contenido del "Sitio en Construccion" */
-.SitioEnConstr {
-  font-size: 4rem;
-  font-style: italic;
-  font-weight: bold;
-  text-align: center;
-  word-spacing: 4rem;
-  line-height: 5rem;
-  padding: 2rem;
-}
-
-/* Formateamos el Copyright*/
-.Copyright {
-  color: #ac73a3;
-  font-size: 2rem;
 }
 
 .Actividades {
@@ -102,6 +82,14 @@ h1, h2, h3, h4, h5, h6, p, a {
   color: rgba(0, 0, 0, 0.55);
   font-weight: normal;
   font-size: 1.5rem;
+}
+
+.Mapa {
+  padding-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
 }
 
 .FormatoBoton {

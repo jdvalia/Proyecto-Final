@@ -18,46 +18,41 @@ $TipodeLetra: 'Playfair Display',serif;
 /* Formateamos los títulos de todas las paginas*/
 .TituloPagina {
     color: $ColorPrimario;
-    font-size:5rem;
+    font-size:4.5rem;
+    text-align: center;
 }
 
-.Textomain {
-    color: whitesmoke;
-    h1 {
-        font-size:2rem;
-        position: absolute;
-        top: 35%;
-        text-align: center;
-        width: 44%;
-        display: block;
-        margin: 0 auto;
-        right: 0;
-        left: 0;
-    }
-    h3 {
-        font-size:1.5rem;
-        position: absolute;
-        top: 40%;
-        text-align: center;
-        width: 65%;
-        display: block;
-        margin: 0 auto;
-        right: 0;
-        left: 0;
-        text-transform: uppercase; 
-    }
-}
+// .Textomain {
+//     color: $ColorPrimario;
+//         h1 {
+//         font-size:3.5rem;
+//         text-align: center;
+//         display: block;
+//         margin: 0 auto;
+//         right: 0;
+//         left: 0;
+//     }
+//     h3 {
+//         font-size:1.5rem;
+//         text-align: center;
+//         width: 75%;
+//         display: block;
+//         margin: 0 auto;
+//         right: 0;
+//         left: 0;
+//         text-transform: uppercase; 
+//     }
+// }
 
 /* Formateamos la Foto de la Pagina Principal*/
-.FotoPrincipal {
-    width:100%;
-    height: 25rem;
-    bottom: auto;
-    background-image: url(../media/paginaprincipal.jpg) ;
-    background-size: 90%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+// .FotoPrincipal {
+//     width:100%;
+//     height: 20rem;
+//     background-image: url(../media/paginaprincipal.jpg) ;
+//     background-size: 90%;
+//     background-position: center;
+//     background-repeat: no-repeat;
+// }
 
 h1, h2, h3, h4, h5, h6, p, a {
     text-rendering: optimizeLegibility;
