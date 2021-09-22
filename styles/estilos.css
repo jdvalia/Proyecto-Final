@@ -25,9 +25,9 @@ html {
 .Textomain h1 {
   font-size: 2rem;
   position: absolute;
-  top: 30%;
+  top: 35%;
   text-align: center;
-  width: 35%;
+  width: 44%;
   display: block;
   margin: 0 auto;
   right: 0;
@@ -35,10 +35,11 @@ html {
 }
 
 .Textomain h3 {
+  font-size: 1.5rem;
   position: absolute;
-  top: 35%;
+  top: 40%;
   text-align: center;
-  width: 80%;
+  width: 65%;
   display: block;
   margin: 0 auto;
   right: 0;
