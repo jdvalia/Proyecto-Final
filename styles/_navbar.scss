@@ -1,18 +1,19 @@
 /* Formateamos las listas de todas las paginas */
 
-a {
-    font-size: 2rem;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
 .AnchoNavBar {
     width:50%;
 }
 
 .AltoNavbar {
     height: 8rem;
+
 }
+
+.ColorLink {
+            color: $ColorPrimario ;
+        }
+
+
 
 
 

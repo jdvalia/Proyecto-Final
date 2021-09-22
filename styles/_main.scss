@@ -7,6 +7,8 @@ html {
     font-size: 62.5%;
 }
 
+// Definicion de Variables
+
 $ColorPrimario: rgb(172, 115, 163);
 $ColorSecundario: rgba(0, 0, 0, 0.55);
 $TipodeLetra: 'Playfair Display',serif;
@@ -22,39 +24,14 @@ $TipodeLetra: 'Playfair Display',serif;
     text-align: center;
 }
 
-// .Textomain {
-//     color: $ColorPrimario;
-//         h1 {
-//         font-size:3.5rem;
-//         text-align: center;
-//         display: block;
-//         margin: 0 auto;
-//         right: 0;
-//         left: 0;
-//     }
-//     h3 {
-//         font-size:1.5rem;
-//         text-align: center;
-//         width: 75%;
-//         display: block;
-//         margin: 0 auto;
-//         right: 0;
-//         left: 0;
-//         text-transform: uppercase; 
-//     }
-// }
-
-/* Formateamos la Foto de la Pagina Principal*/
-// .FotoPrincipal {
-//     width:100%;
-//     height: 20rem;
-//     background-image: url(../media/paginaprincipal.jpg) ;
-//     background-size: 90%;
-//     background-position: center;
-//     background-repeat: no-repeat;
-// }
+/* Formateamos el texto en General*/
 
 h1, h2, h3, h4, h5, h6, p, a {
     text-rendering: optimizeLegibility;
     font-family: $TipodeLetra;
+}
+
+a {
+    font-size: 2rem ;
+    font-weight: bolder;
 }

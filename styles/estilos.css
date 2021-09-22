@@ -19,10 +19,36 @@ html {
   text-align: center;
 }
 
-/* Formateamos la Foto de la Pagina Principal*/
+/* Formateamos el texto en General*/
 h1, h2, h3, h4, h5, h6, p, a {
   text-rendering: optimizeLegibility;
   font-family: "Playfair Display", serif;
+}
+
+a {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+/* Formateamos las listas de todas las paginas */
+.Menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Enlace {
+  list-style: none;
+  padding: 1rem;
 }
 
 /* Formateamos el Texto de la Pagina Principal*/
@@ -223,17 +249,15 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 /* Formateamos las listas de todas las paginas */
-a {
-  font-size: 2rem;
-  font-weight: bolder;
-  text-decoration: none;
-}
-
 .AnchoNavBar {
   width: 50%;
 }
 
 .AltoNavbar {
   height: 8rem;
+}
+
+.ColorLink {
+  color: #ac73a3;
 }
 /*# sourceMappingURL=estilos.css.map */
