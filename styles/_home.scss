@@ -2,7 +2,7 @@
 .Textomain {
     color: $ColorPrimario;
         h1 {
-        font-size:3.5rem;
+        font-size:4.5rem;
         text-align: center;
         display: block;
         margin: 0 auto;
@@ -10,14 +10,22 @@
         left: 0;
     }
     h3 {
-        font-size:1.5rem;
+        font-size:2rem;
         text-align: center;
-        width: 75%;
+        width: 85%;
         display: block;
         margin: 0 auto;
         right: 0;
         left: 0;
         text-transform: uppercase; 
+
+        @media (min-width:992px){
+            font-size: 4rem;
+            position: relative;
+            top: -30rem;
+            color: white;
+            }
+
     }
 }
 
@@ -29,4 +37,22 @@
     background-size: 90%;
     background-position: center;
     background-repeat: no-repeat;
+
+    @media (min-width:576px){
+        height: 35rem;
+        }
+
+    @media (min-width:768px){
+        height: 40rem;
+        }
+
+    @media (min-width:992px){
+        height: 50rem;
+        }
+            
+    @media (min-width:1200px){
+        height: 53rem;
+        }
+            
+
 }

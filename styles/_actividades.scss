@@ -1,3 +1,19 @@
 .Actividades {
+    margin:auto;
     padding-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    @media (min-width:856px){
+        width: 90%;
+        }
+
+    @media (min-width:992px){
+        width: 85%;
+        }
+            
+    @media (min-width:1200px){
+        width: 65%;
+        }
 }

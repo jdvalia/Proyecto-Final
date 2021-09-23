@@ -53,24 +53,25 @@
             
             <h1 class="TituloPagina">Reservas</h1>
       <div class="row">
-          <div class="col-sm-8">
+          <div class="col-sm-8 Separa">
             <form class="NuevoForm">
-              <!-- <form method="post" action="#" id="contact"> -->
-          <div class="row mb-3">
-            <div class="col-sm-4">
-            <label for="myDate" class="col-form-label col-form-label-lg FormatoContacto"><h4>Fecha de Llegada</h4></label>
+
+            <div class="row mb-2">
+
+            <div class="col-sm-5">
+            <label for="myDate" class="col-form-label col-form-label-lg FormatoContacto">Fecha de Arribo</label>
             <input type="date" class="form-control form-control-lg input" id="myDate" required>
             </div>
 
-            <div class="col-sm-4">
-            <label for="myDate" class="col-form-label col-form-label-lg FormatoContacto"> <h4>Fecha de Salida</h4></label>
+            <div class="col-sm-5">
+            <label for="myDate" class="col-form-label col-form-label-lg FormatoContacto">Fecha de Salida</label>
             <input type="date" class="form-control form-control-lg input" id="myDate" required>
             </div>
-          </div>
+            </div>
 
-          <div class="row mb-3">
-            <div class="col-sm-4">
-              <label for="TipodeHab" class="col-form-label col-form-label-lg FormatoContacto"> <h4> Tipo de Habitacion </h4></label>
+          <div class="row mb-2">
+            <div class="col-sm-6">
+              <label for="TipodeHab" class="col-form-label col-form-label-lg FormatoContacto">Tipo de Habitacion</label>
             <select id="TipodeHab" class="cs-select col-form-label col-form-label-lg form-control form-control-lg input FormatoContacto" required>
               <option value="" disabled="" selected="">Escoja su Habitacion</option>
               <option value="1">2 Personas</option>
@@ -80,60 +81,65 @@
               <option value="5">Presidencial</option>
             </select>
             </div>
+           </div>
+
+           <div class="row mb-2">
+            <div class="col-sm-6">
+            <label for="adults" class="col-form-label col-form-label-lg FormatoContacto">Adultos</label>
+              <input type="number" id="adults" name="adults" class="form-control form-control-lg input" placeholder="Numero de Adultos" required>  
+            </label>
+            </div>
+           </div>
+
+           <div class="row mb-2">
+            <div class="col-sm-6">
+            <label for="children" class="col-form-label col-form-label-lg FormatoContacto">Menores de 15 años</label>
+              <input type="number" id="children" name="children" class="form-control form-control-lg input" placeholder="Numero de Menores" required>  
+            </label>
+            </div>
           </div>
 
-              <div class="row mb-3">
-                <div class="col-sm-7">
+
+              <div class="row mb-2">
+                <div class="col-sm-8">
                 <label for="inputName" class="col-form-label col-form-label-lg FormatoContacto"> Nombre y Apellido</label>
                 <input type="text" class="form-control form-control-lg input" id="inputName" placeholder="Ej: Carlos Alberto Garcia" required>
                 </div>
               </div>
-              <div class="row mb-3">
-                <div class="col-sm-7">
+
+              <div class="row mb-2">
+                <div class="col-sm-8">
                 <label for="inputEmail4" class="col-form-label col-form-label-lg FormatoContacto">Email</label>
                 <input type="email" class="form-control form-control-lg input" id="inputEmail4" placeholder="Ej: CAGarcia@gmail.com" required>
                 </div>
               </div>
-              <div class="row mb-3">
-                <div class="col-sm-7">
+
+              <div class="row mb-2">
+                <div class="col-sm-8">
                 <label for="inputPhone" class="col-form-label col-form-label-lg FormatoContacto">Telefono Celular</label>
                 <input type="tel" class="form-control form-control-lg input" id="inputPhone" placeholder="Celular con el codigo de pais" required>
                 </div>
               </div>
 
-              <div class="row mb-3">
-                <div class="col-sm-7">
-                <label for="adults" class="col-form-label col-form-label-lg FormatoContacto">Cantidad de Adultos</label>
-                  <input type="number" id="adults" name="adults" class="form-control form-control-lg input" placeholder="Numero de Adultos" required>  
-                </label>
-                </div>
-              </div>
-
-              <div class="row mb-3">
-                <div class="col-sm-7">
-                <label for="children" class="col-form-label col-form-label-lg FormatoContacto">Cantidad de Menores de 15 años</label>
-                  <input type="number" id="children" name="children" class="form-control form-control-lg input" placeholder="Numero de Menores" required>  
-                </label>
-                </div>
-              </div>
+              
 
 
-              <div class="row mb-3">
-                <div class="col-sm-7">
+              <div class="row mb-2">
+                <div class="col-sm-8">
                 <label for="FormControlTextarea1" class="col-form-label col-form-label-lg FormatoContacto">Tiene Requerimientos adicionales?</label>
                 <textarea class="form-control form-control-lg input" id="FormControlTextarea1" rows="3" placeholder="Haganos saber sus peticiones"></textarea>
                 </div>
               </div>
 
-            <div class="row mb-3">
-              <div class="col-sm-7">
+            <div class="row mb-2">
+              <div class="col-sm-8">
                     <input type="checkbox" name="switch" id="switch" value="switch" class="form-check-input input" data-on="YES" data-off="NO">
                     <label for="switch" class="form-check-label FormatoContacto">Necesito que me busquen en al Aeropuerto</label>
               </div>
             </div>
              
-            <div class="row mb-3">
-              <div class="col-sm-7">
+            <div class="row mb-2">
+              <div class="col-sm-8">
               <div class="Botones">
                 <button type="submit" class="btn btn-lg FormatoBoton">Confirma Reserva</button>
                 <button type="reset" class="btn btn-lg FormatoBoton">Cancelar</button>
@@ -153,7 +159,7 @@
               <h3 class="Datos"> Telefono</h3>
               <p class="DatosFinal"> +54 11 5555 1234
                 <br>
-                Desde Argentina 0800-999-1234
+                Dde Argentina 0800999123
                 <br>
               </p>
               <h3 class="Datos"> Via Mail</h3>
