@@ -32,10 +32,7 @@
 .Mapa {
     margin: 0.1rem;
     padding: 1rem; 
-    display: flex;
-    flex-wrap: nowrap;
-    justify-self: self-start;
-    width: 60%;
+    display: block;
 }
 
 .FormatoBoton {

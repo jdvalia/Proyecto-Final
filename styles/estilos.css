@@ -31,10 +31,6 @@ a {
   font-weight: bolder;
 }
 
-.PiedePagina {
-  background-color: #fafaeb;
-}
-
 @-webkit-keyframes inicio {
   0% {
     -webkit-transform: scale(0.1);
@@ -178,7 +174,7 @@ a {
 }
 
 .ActividadTexto {
-  width: 75%;
+  width: 70%;
   color: #ac73a3;
 }
 
@@ -319,13 +315,7 @@ a {
 .Mapa {
   margin: 0.1rem;
   padding: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  justify-self: self-start;
-  width: 60%;
+  display: block;
 }
 
 .FormatoBoton {
@@ -404,8 +394,6 @@ a {
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.7);
-  /* Pongo valor de z-index en 1021 para que el underlay se muestre por encima del */
-  /* menu de navegacion que de manera predeterminada tiene z-index 1020            */
   -webkit-animation-name: animOverlay;
           animation-name: animOverlay;
   -webkit-animation-duration: 0.3s;
@@ -452,7 +440,7 @@ a {
 }
 
 .articulos i {
-  /* boton que cierra el contenedor de articulos */
+  /* boton que cierra el Modal */
   font-size: 3rem;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -608,14 +596,11 @@ a {
 .Out {
   color: #ac73a3;
   margin-top: 15rem;
+  padding: 2rem;
+  text-align: center;
 }
 
 .Out h1 {
   font-size: 4rem;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  right: 0;
-  left: 0;
 }
 /*# sourceMappingURL=estilos.css.map */

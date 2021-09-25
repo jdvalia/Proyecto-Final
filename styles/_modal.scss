@@ -18,15 +18,12 @@
   bottom: 0;
   left: 0;
   background-color: rgba(0,0,0,0.7);
-  /* Pongo valor de z-index en 1021 para que el underlay se muestre por encima del */
-  /* menu de navegacion que de manera predeterminada tiene z-index 1020            */
-//   z-index: 1021;
   animation-name: animOverlay;
   animation-duration: 0.3s;
   @keyframes animOverlay{
     from{transform: scale(0);}
     to{transform:scale(1);} 
-  }
+        }
 }
 .articulos{
   background-color: $ColorTerciario;
@@ -35,33 +32,27 @@
   width: 40rem;
   height: 45rem;
 
-h2 {
-    font-weight: bold;
-}
+      h2 {
+          font-weight: bold;
+      }
 
-p {
-    font-size:1.35rem;
-    font-weight: bold;
-}
+      p {
+          font-size:1.35rem;
+          font-weight: bold;
+      }
 
-  i{
-    /* boton que cierra el contenedor de articulos */
-    font-size: 3rem;
-    transition: all 0.2s ease-in-out;
-    position: sticky;
-    top:0;
-    float: right;
-    &:hover{
-      transform: scale(1.1);
-      cursor: pointer;
-    }
-    // @media only screen and (max-width: 768px){
-    //   font-size: 2.4rem;
-    // }
-    // @media only screen and (max-width: 576px){
-    //   font-size: 1.8rem;
-    // }
+        i{
+          /* boton que cierra el Modal */
+          font-size: 3rem;
+          transition: all 0.2s ease-in-out;
+          position: sticky;
+          top:0;
+          float: right;
+          &:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+                }
     
-  }
+          }
 }
 
