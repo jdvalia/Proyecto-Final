@@ -1,9 +1,20 @@
 /* Formateamos el Formulario de Contactate*/
+.Solucion {
+    margin-right: 0;
+}
+
+.DatosTitulos {
+    padding: 2rem 1rem 0 1rem;
+    color: $ColorPrimario;
+    font-size: 3rem;
+    font-style: italic;
+        }
+
 .Datos {
     padding: 2rem 1rem 0 1rem;
     color: $ColorPrimario;
     font-size: 2rem;
-}
+    }
 
 .FormatoContacto {
     color: $ColorPrimario;
@@ -23,14 +34,13 @@
     padding: 1rem; 
     display: flex;
     flex-wrap: nowrap;
-    // justify-items:flex-start;
     justify-self: self-start;
     width: 60%;
 }
 
 .FormatoBoton {
 background-color: $ColorPrimario;
-color: white;
+color: $ColorTerciario;
 font-family: $TipodeLetra;
 letter-spacing: 0.4rem;
 }
@@ -55,7 +65,7 @@ letter-spacing: 0.4rem;
     text-transform: lowercase;
     color: $ColorPrimario;
 }
-
+// Separacion de las 2 columnas cuando se juntan para Moviles
 .Separa {
     margin-bottom: 6rem;
 }
